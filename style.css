@@ -1,0 +1,219 @@
+*{
+	margin: 0;padding: 0;box-sizing: border-box;
+	font-family: 'Josefin Sans',sans-serif;
+}
+html{
+	scroll-behavior: smooth;
+}
+
+nav {
+	width: 100%;
+	height:70px;
+	display:flex;
+	justify-content: space-between;
+	text-transform: uppercase;
+	align-items: center;
+	background:rgba(0,0,0,0.9);
+	box-shadow:0px 20px 40px #080438;
+	z-index:auto;
+}
+
+nav .logo{
+	width:25%;
+	font-size: 25px;
+	color: white;
+	text-align: center;
+	align-items: center;
+}
+nav .menu{
+	width: 60%;
+	text-align: center;
+	text-decoration:none;
+	display: flex;
+	justify-content: space-around;
+}
+nav .menu a{
+	width: 25%;
+	text-decoration: none; 
+	color: white;
+}
+nav .menu a:hover{
+	color: #5475e3;
+}
+#section1 { 
+	z-index: initial;
+	color: white;
+	width: 100%;
+	height: 500px;
+	align-items: center;
+	background-image: url('https://www.freepik.com/free-vector/neon-lights-wallpaper_9989324.htm#page=1&query=abstract%20background&position=27');
+	background-size:cover;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+#section1 p{
+	font-weight: bold;
+	font-size: 75px;
+	color: white;
+}
+
+#section2{
+	width: 100%;
+	height: 800px;
+	background-color:transparent;
+	display: block;
+	
+}
+.main .head{
+	font-weight: bold;
+	color: #22a39f;
+	font-size: 45px;
+	text-align: center;
+	position: relative;
+	top : 35px;
+}
+hr{
+	position: relative;
+	top:80px;
+	left: 12.5%;
+	width: 75%;
+	height: 3px;
+	color: #22a39f;
+	background-color: #22a39f;
+	align-items: center;
+}
+#section3 {
+	width: 100%;
+	height: 700px;
+	background-color:#F0F8FF;
+}
+.main{
+	overflow: auto;
+}
+.main .img1{
+	border-radius: 45%;
+	left: 43%;	
+}
+.main .container{
+	position: relative;
+	top:100px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+.container .aboutme{
+	color: #434242;
+	margin-left: 45px;
+	margin-right: 15px;
+	width: 50%;
+	text-align: center;
+	line-height: 135px;
+}
+.container .img1{
+	align-items: center;
+	top:120px;
+	width: 20%;
+	border-radius: 43%;
+}
+.container .detail{
+	display: block;
+	color: #434242;
+	margin-left: 15px;
+	margin-right: 145px;
+	width: 30%;
+	line-height: 135px;
+}
+.container .detail .d{
+	font-size: 25px;
+	line-height: 40px;
+}
+.container .aboutme .about{
+	font-size: 25px;
+	line-height: 40px;
+}
+#section4 {
+	width: 100%;
+	height: 700px;
+	background-color:transparent;
+}
+#slider{
+	overflow: hidden;
+	position: relative;
+	left:30%	;
+	width: 600px;
+	align-items: center;
+}
+#slider figure{
+	position: relative;
+	width: 500%;
+	top:100px;
+	margin: 0;
+	left:0;
+	animation:20s slider infinite ; 
+}
+#slider figure img{
+	width: 20%;
+	float: left;
+}
+@keyframes slider{
+	0%{
+		left:0;
+	}
+	20%{
+		left:0;
+	}
+	25%{
+		left:-100%; 
+	}
+	45%{
+		left:-100%;
+	}
+	50%{
+		left:-200%;
+	}
+	70%{
+		left:-200%;
+	}
+	75%{
+		left:-300%;
+	}
+	95%{
+		left:-300%;
+	}
+}
+#section4 .twoone{
+	margin-left: 30px;
+}
+#section4 .twoone p{
+	position: relative;
+	top:100px;
+}
+#section4 .twoone video{
+	position: relative;
+	top:120px;
+}
+#section4 .twotwo{
+	position: relative;
+	top:150px;
+	margin-left: 30px;
+} 
+#section4 .twotwo a{
+	font-size: 45px;
+}
+#section5 {
+	width: 100%;
+	height: 700px;
+	background-color:#F0F8FF;
+}
+#section5 .findme{
+	text-align: left;
+	margin-left: 200px;
+	position: relative;
+	top:150px;
+	font-size: 25px;
+	line-height: 70px;
+}
+linear-gradient(rgba(7,7,59,1),rgba(40,53,247,0.8))
